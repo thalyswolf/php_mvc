@@ -9,13 +9,13 @@
   <meta name="author" content="">
   <title>SB Admin - Start Bootstrap Template</title>
   <!-- Bootstrap core CSS-->
-  <link href="{$GET_TEMA}/template/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{$GET_TEMPLATE}/template/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
-  <link href="{$GET_TEMA}/template/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="{$GET_TEMPLATE}/template/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Page level plugin CSS-->
-  <link href="{$GET_TEMA}/template/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href="{$GET_TEMPLATE}/template/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
-  <link href="{$GET_TEMA}/template/css/sb-admin.css" rel="stylesheet">
+  <link href="{$GET_TEMPLATE}/template/css/sb-admin.css" rel="stylesheet">
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -231,7 +231,7 @@
         <li class="breadcrumb-item active">My Dashboard</li>
       </ol>
       {php}
-        Rotas::get_pagina();
+        Rotas::getPage();
       {/php}
         <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
       </div>
@@ -268,19 +268,19 @@
       </div>
     </div>
     <!-- Bootstrap core JavaScript-->
-    <script src="{$GET_TEMA}/template/vendor/jquery/jquery.min.js"></script>
-    <script src="{$GET_TEMA}/template/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{$GET_TEMPLATE}/template/vendor/jquery/jquery.min.js"></script>
+    <script src="{$GET_TEMPLATE}/template/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Core plugin JavaScript-->
-    <script src="{$GET_TEMA}/template/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="{$GET_TEMPLATE}/template/vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Page level plugin JavaScript-->
-    <script src="{$GET_TEMA}/template/vendor/chart.js/Chart.min.js"></script>
-    <script src="{$GET_TEMA}/template/vendor/datatables/jquery.dataTables.js"></script>
-    <script src="{$GET_TEMA}/template/vendor/datatables/dataTables.bootstrap4.js"></script>
+    <script src="{$GET_TEMPLATE}/template/vendor/chart.js/Chart.min.js"></script>
+    <script src="{$GET_TEMPLATE}/template/vendor/datatables/jquery.dataTables.js"></script>
+    <script src="{$GET_TEMPLATE}/template/vendor/datatables/dataTables.bootstrap4.js"></script>
     <!-- Custom scripts for all pages-->
-    <script src="{$GET_TEMA}/template/js/sb-admin.min.js"></script>
+    <script src="{$GET_TEMPLATE}/template/js/sb-admin.min.js"></script>
     <!-- Custom scripts for this page-->
-    <script src="{$GET_TEMA}/template/js/sb-admin-datatables.min.js"></script>
-    <script src="{$GET_TEMA}/template/js/sb-admin-charts.min.js"></script>
+    <script src="{$GET_TEMPLATE}/template/js/sb-admin-datatables.min.js"></script>
+    <script src="{$GET_TEMPLATE}/template/js/sb-admin-charts.min.js"></script>
   </div>
 </body>
 

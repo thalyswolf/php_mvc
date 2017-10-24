@@ -4,8 +4,8 @@
 
 
 
-  $smarty->assign('GET_TEMA', Rotas::get_siteTemplate());
-  $smarty->assign('GET_HOME', Rotas::get_siteHOME());
+  $smarty->assign('GET_TEMPLATE', Rotas::getTemplate());
+  $smarty->assign('GET_HOME', Rotas::getHome());
   $smarty->assign('TITLE', Config::SITE_NOME);
 
 

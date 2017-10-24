@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-10-24 19:14:50
+/* Smarty version 3.1.31, created on 2017-10-24 19:43:15
   from "C:\xampp\htdocs\dashboard\php_mvc\view\index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59ef750a6545f4_75224220',
+  'unifunc' => 'content_59ef7bb363a307_53003059',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0d61a7eb42a259b46d11ab5c57d0773a6bf12641' => 
     array (
       0 => 'C:\\xampp\\htdocs\\dashboard\\php_mvc\\view\\index.tpl',
-      1 => 1508865287,
+      1 => 1508866994,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59ef750a6545f4_75224220 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59ef7bb363a307_53003059 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,16 +33,16 @@ function content_59ef750a6545f4_75224220 (Smarty_Internal_Template $_smarty_tpl)
   <meta name="author" content="">
   <title>SB Admin - Start Bootstrap Template</title>
   <!-- Bootstrap core CSS-->
-  <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+  <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
-  <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+  <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Page level plugin CSS-->
-  <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+  <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
-  <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+  <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/css/sb-admin.css" rel="stylesheet">
 </head>
 
@@ -259,7 +259,7 @@ function content_59ef750a6545f4_75224220 (Smarty_Internal_Template $_smarty_tpl)
         <li class="breadcrumb-item active">My Dashboard</li>
       </ol>
       <?php 
-        Rotas::get_pagina();
+        Rotas::getPage();
       ?>
         <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
       </div>
@@ -297,43 +297,43 @@ function content_59ef750a6545f4_75224220 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <!-- Bootstrap core JavaScript-->
     <?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/vendor/jquery/jquery.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/vendor/bootstrap/js/bootstrap.bundle.min.js"><?php echo '</script'; ?>
 >
     <!-- Core plugin JavaScript-->
     <?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/vendor/jquery-easing/jquery.easing.min.js"><?php echo '</script'; ?>
 >
     <!-- Page level plugin JavaScript-->
     <?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/vendor/chart.js/Chart.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/vendor/datatables/jquery.dataTables.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/vendor/datatables/dataTables.bootstrap4.js"><?php echo '</script'; ?>
 >
     <!-- Custom scripts for all pages-->
     <?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/js/sb-admin.min.js"><?php echo '</script'; ?>
 >
     <!-- Custom scripts for this page-->
     <?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/js/sb-admin-datatables.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMPLATE']->value;?>
 /template/js/sb-admin-charts.min.js"><?php echo '</script'; ?>
 >
   </div>
